@@ -1,0 +1,523 @@
+﻿Log file open, 01/25/19 22:10:08
+LogInit:Display: Running engine for game: HP
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2019.01.25-20.10.08:764][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2019.01.25-20.10.08:812][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2019.01.25-20.10.08:863][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2019.01.25-20.10.08:878][  0]LogInit: Object subsystem initialized
+[2019.01.25-20.10.08:882][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2019.01.25-20.10.08:882][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2019.01.25-20.10.08:882][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2019.01.25-20.10.08:882][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2019.01.25-20.10.08:882][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-20.10.08:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-20.10.08:890][  0]LogInit: Computer: DESKTOP-0OFQH0I
+[2019.01.25-20.10.08:890][  0]LogInit: User: PaulCornelDeveloper
+[2019.01.25-20.10.08:898][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.25-20.10.08:898][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.01.25-20.10.08:898][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx) Virtual=131072.0GB
+[2019.01.25-20.10.08:899][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-20.10.08:899][  0]LogMemory: Process Physical Memory: 66.32 MB used, 66.32 MB peak
+[2019.01.25-20.10.08:899][  0]LogMemory: Process Virtual Memory: 41.00 MB used, 41.00 MB peak
+[2019.01.25-20.10.08:899][  0]LogMemory: Physical Memory: 3823.30 MB used, 7114.43 MB total
+[2019.01.25-20.10.08:899][  0]LogMemory: Virtual Memory: 4427.70 MB used, 134217728.00 MB total
+[2019.01.25-20.10.08:978][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 730 (Feature Level 11_0)
+[2019.01.25-20.10.08:978][  0]LogD3D11RHI: Adapter has 2018MB of dedicated video memory, 0MB of dedicated system memory, and 3557MB of shared system memory, 1 output[s]
+[2019.01.25-20.10.09:004][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon(TM) R7 Graphics (Feature Level 11_0)
+[2019.01.25-20.10.09:004][  0]LogD3D11RHI: Adapter has 1006MB of dedicated video memory, 0MB of dedicated system memory, and 3557MB of shared system memory, 0 output[s]
+[2019.01.25-20.10.09:008][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2019.01.25-20.10.09:009][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3557MB of shared system memory, 0 output[s]
+[2019.01.25-20.10.09:009][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2019.01.25-20.10.09:023][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.01.25-20.10.09:064][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-20.10.09:127][  0]LogTextLocalizationManager: The requested culture ('ro_RO') has no localization data; falling back to 'en' for localization and internationalization data.
+[2019.01.25-20.10.09:387][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2019.01.25-20.10.16:011][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.25-20.10.17:064][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.25-20.10.17:235][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.01.25-20.10.17:408][  0]LogDerivedDataCache: Loaded boot cache 0.17s 39MB C:/Users/PaulCornelDeveloper/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2019.01.25-20.10.17:408][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/PaulCornelDeveloper/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2019.01.25-20.10.17:409][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-20.10.17:409][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-20.10.17:510][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2019.01.25-20.10.17:526][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PaulCornelDeveloper/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-20.10.17:939][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2019.01.25-20.10.17:939][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.01.25-20.10.18:456][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.18:461][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.18:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.25-20.10.21:069][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-20.10.21:770][  0]SourceControl: Info Source control is disabled
+[2019.01.25-20.10.21:770][  0]SourceControl: Info Source control is disabled
+[2019.01.25-20.10.21:792][  0]SourceControl: Info Source control is disabled
+[2019.01.25-20.10.22:095][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2019.01.25-20.10.22:095][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2019.01.25-20.10.22:195][  0]LogEngine: Initializing Engine...
+[2019.01.25-20.10.22:500][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-20.10.22:604][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-20.10.22:662][  0]LogAIModule: Creating AISystem for world NewWorld
+[2019.01.25-20.10.22:720][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/PaulCornelDeveloper/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2019.01.25-20.10.22:739][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-20.10.22:882][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-20.10.23:167][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-20.10.23:224][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2019.01.25-20.10.23:225][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2019.01.25-20.10.24:205][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.25-20.10.24:822][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.25-20.10.25:386][  0]LogConsoleResponse:Display: 
+[2019.01.25-20.10.25:802][  0]SourceControl: Info Source control is disabled
+[2019.01.25-20.10.25:802][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Maps/HP_MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2019.01.25-20.10.25:803][  0]LightingResults: New page: Lighting Build
+[2019.01.25-20.10.25:829][  0]MapCheck: New page: Map Check
+[2019.01.25-20.10.25:829][  0]LightingResults: New page: Lighting Build
+[2019.01.25-20.10.25:850][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001780F8A67A0
+[2019.01.25-20.10.25:852][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Maps/HP_MainLevel.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:855][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/PostProcess/MI_CartoonLook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:856][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/PostProcess/M_CartoonLook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:866][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Stairs/HP_Stairway.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:867][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Stairs/M_WallPainInterior_MAT.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:868][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/PostProcess/RedOnly_LUT.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:929][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Animation/SW_Intro.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:930][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Mesh/ScaryWoman_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:933][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/BP_TVScreen1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:935][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/temp.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:935][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/NewsClipCue.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:936][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/NewsClips1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:939][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/TVScreen/TvScreen.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:940][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/TVScreen/M_TV.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:941][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/M_TVVideo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:965][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Blueprints/BP_Character.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:968][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Animations/BP_A_Ethan.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:970][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Animations/E_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:970][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/EthanC_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:971][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:973][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Animations/BS_Ethan.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:974][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Animations/E_Idle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:977][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Animations/E_Walk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:980][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Animations/Run_Copy.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:986][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/Pause/PauseMenu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:989][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/Materials/Logo_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:990][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/Materials/Logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:992][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/Materials/Logo_Trans.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:995][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/Pause/Materials/PauseMenu_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:996][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/Pause/Materials/PauseMenu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:996][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/Pause/Materials/PauseMenuTrans.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:998][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/Materials/Button_Empty.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.25:999][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/Materials/Button_Hover.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:001][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/Pause/MainMenuGoBack.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:008][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/Pause/MainMenuQuit.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:187][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/EthanC.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:188][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Materials/_Body.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:189][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Materials/EthanConrad_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:194][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Materials/EthanConrad_high_nm.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:196][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Materials/EthanConrad_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:205][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Materials/_Eye_trans.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:207][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/EthanC_PhysicsAsset.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:365][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/RealDoor/Door1/BP_Door.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:367][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/RealDoor/Door1/DoorClosed.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:368][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/RealDoor/Door1/02_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:377][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/RealDoor/Door1/1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:388][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/RealDoor/Door1/3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:424][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Bath/BP_Bath.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:426][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Bath/HP_Bath.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:453][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Kitchen/BP_kitchen_Sink.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:496][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/BP/BP_LivingRoom.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:498][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/HP_LivingRoom.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:499][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/02_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:517][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/02/HP_LivingRoom_02_Default_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:518][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/02/HP_LivingRoom_02_Default_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:519][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/02/HP_LivingRoom_02_Default_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:520][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/02/HP_LivingRoom_02_Default_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:521][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/02/HP_LivingRoom_02_Default_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:526][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/07_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:528][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/07/HP_LivingRoom_07_Default_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:529][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/07/HP_LivingRoom_07_Default_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:530][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/07/HP_LivingRoom_07_Default_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:530][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/07/HP_LivingRoom_07_Default_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:531][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/07/HP_LivingRoom_07_Default_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:541][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/08_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:543][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/08/HP_LivingRoom_08_Default_diffuse.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:544][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/08/HP_LivingRoom_08_Default_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:545][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/08/HP_LivingRoom_08_Default_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:545][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/08/HP_LivingRoom_08_Default_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:546][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/08/HP_LivingRoom_08_Default_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:549][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/13_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:550][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/13/HP_LivingRoom_13_Default_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:551][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/13/HP_LivingRoom_13_Default_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:553][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/13/HP_LivingRoom_13_Default_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:553][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/13/HP_LivingRoom_13_Default_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:555][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/13/HP_LivingRoom_13_Default_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:555][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/13/HP_LivingRoom_13_Default_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:558][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/13/HP_LivingRoom_13_Default_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:559][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/13/HP_LivingRoom_13_Default_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:560][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/13/HP_LivingRoom_13_Default_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:561][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Room/Material/13/HP_LivingRoom_13_Default_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:566][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_WoodFloor_MAT_Inst2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:567][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_WoodFloor_MAT.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:570][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_DustnScratches_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:571][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_DustnScratches_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:572][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_Wood.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:573][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_Wood_S.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:574][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_WoodFloor_AO.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:575][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_WoodFloor_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:594][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_Curtain_MAT.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:596][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_Cloth_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:597][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_Cloth_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:597][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_Fabric_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:598][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_Fabric_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:602][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/Picture3_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:603][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/Picture3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:605][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/Poster1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:605][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/Poster1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:606][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/Poster2_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:607][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/Poster2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:609][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_Curtain_MAT_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:638][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/ArchVis/Textures/T_MugLogo_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:655][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/ArchVis/Mesh/SM_CoffeeTable.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:767][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/DoorKnocks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:768][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/GlassSmash.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:769][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/JumpScare.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:771][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/VilionsPlaying.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:774][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Mesh/ScaryWoman.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:775][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/_Body.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:776][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/ScaryWoman_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:778][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/ScaryWoman_color2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:778][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/ScaryWoman_high_nm.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:779][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/ScaryWoman_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:782][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/_Eye_trans.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:783][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/Hair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:784][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/ScaryWoman_wig_nm.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:784][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Material/ScaryWoman_wig_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:788][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Mesh/ScaryWoman_PhysicsAsset.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:856][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/BedDoor/DoubleDoorsx.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:857][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/BedDoor/Material__8.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:865][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/Door/BedDoor/Material__9.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:898][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/PictureFrams/1/Frame2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:899][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/PictureFrams/1/Frame3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:899][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/PictureFrams/1/Frame4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:901][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/PictureFrams/1/01_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:908][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/PictureFrams/1/07_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:910][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/HPContent/PictureFrams/1/09_-_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:921][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_SlidingDoor_AOMask.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:922][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_SlidingDoor_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:922][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Textures/T_SlidingDoor_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:929][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Assortment/Fence/4rh_fghutr.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:936][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Curtains/SM_Curtain.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:937][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Base2/HP_Drawers_CHSTBAS2_diffuse.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:937][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Base2/HP_Drawers_CHSTBAS2_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:938][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Base2/HP_Drawers_CHSTBAS2_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:940][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Base2/HP_Drawers_CHSTBAS2_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:941][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Base2/HP_Drawers_CHSTBAS2_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:944][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/HP_Drawers.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:945][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/BASE2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:950][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/INT.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:951][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/INT/HP_Drawers_CHSTINT_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:951][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/INT/HP_Drawers_CHSTINT_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:952][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/INT/HP_Drawers_CHSTINT_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:953][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/INT/HP_Drawers_CHSTINT_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:953][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/INT/HP_Drawers_CHSTINT_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:956][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/M_WOOD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:957][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood2/HP_Drawers_CHSTWOOD_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:958][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood2/HP_Drawers_CHSTWOOD_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:959][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood2/HP_Drawers_CHSTWOOD_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:961][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood2/HP_Drawers_CHSTWOOD_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:963][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood2/HP_Drawers_CHSTWOOD_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:964][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/M_WOOD2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:966][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood/HP_Drawers_CHSTWOOD1_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:967][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood/HP_Drawers_CHSTWOOD1_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:968][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood/HP_Drawers_CHSTWOOD1_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:969][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood/HP_Drawers_CHSTWOOD1_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:970][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/Wood/HP_Drawers_CHSTWOOD1_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:978][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/METAL.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:980][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/METAL/HP_Drawers_CHSTMETL_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:981][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/METAL/HP_Drawers_CHSTMETL_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:982][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/METAL/HP_Drawers_CHSTMETL_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:983][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/METAL/HP_Drawers_CHSTMETL_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:984][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Drawers/METAL/HP_Drawers_CHSTMETL_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:996][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/08/HP_Fridge_Material_8_diffuse.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:998][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/08/HP_Fridge_Material_8_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:999][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/08/HP_Fridge_Material_8_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.26:999][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/08/HP_Fridge_Material_8_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:000][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/08/HP_Fridge_Material_8_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:000][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/09/HP_Fridge_Material_9_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:001][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/09/HP_Fridge_Material_9_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:002][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/09/HP_Fridge_Material_9_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:003][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/09/HP_Fridge_Material_9_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:004][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/09/HP_Fridge_Material_9_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:004][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/10/HP_Fridge_Material_10_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:005][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/10/HP_Fridge_Material_10_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:005][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/10/HP_Fridge_Material_10_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:006][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/10/HP_Fridge_Material_10_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:007][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/10/HP_Fridge_Material_10_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:007][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/HP_Fridge.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:008][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/Material__10.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:012][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/Material__8.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:016][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Fridge/Material__9.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:061][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/SM_SlidingDoors.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:062][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_Glas_MAt_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:063][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_Glas_MAt.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:066][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_SlidingDoor_Mat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:066][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Materials/M_SlidingDoor_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:106][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:121][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle10.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:135][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle11.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:150][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle12.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:168][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:183][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:197][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:211][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle5.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:229][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle6.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:246][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:263][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle8.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:276][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/TV/Subtitle9.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.27:734][  0]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/Ryuuzaki/Documents/Unreal Projects/HP/Content/Movies/temp.wmv
+[2019.01.25-20.10.32:131][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2019.01.25-20.10.32:147][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/HP_Hall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:148][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:150][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor/HP_Hall_FireDoor_diffuse.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:150][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor/HP_Hall_FireDoor_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:151][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor/HP_Hall_FireDoor_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:152][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor/HP_Hall_FireDoor_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:154][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor/HP_Hall_FireDoor_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:158][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:159][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor2/HP_Hall_FireDoor2_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:160][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor2/HP_Hall_FireDoor2_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:161][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor2/HP_Hall_FireDoor2_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:163][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor2/HP_Hall_FireDoor2_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:164][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/FireDoor2/HP_Hall_FireDoor2_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:168][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Roof.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:170][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Roof/HP_Hall_Roof_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:171][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Roof/HP_Hall_Roof_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:172][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Roof/HP_Hall_Roof_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:173][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Roof/HP_Hall_Roof_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:173][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Roof/HP_Hall_Roof_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:177][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/SkirtingBoard.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:178][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/SkirtingBoard/HP_Hall_SkirtingBoard_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:179][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/SkirtingBoard/HP_Hall_SkirtingBoard_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:180][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/SkirtingBoard/HP_Hall_SkirtingBoard_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:182][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/SkirtingBoard/HP_Hall_SkirtingBoard_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:183][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/SkirtingBoard/HP_Hall_SkirtingBoard_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:187][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/WallPlate.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:188][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Wallway.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:190][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Wallway/HP_Hall_Wallway_base_color.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:191][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Wallway/HP_Hall_Wallway_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:192][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Wallway/HP_Hall_Wallway_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:192][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Wallway/HP_Hall_Wallway_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:193][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Hallway/Materials/Wallway/HP_Hall_Wallway_spec.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:795][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Characters/ScaryWoman/Animation/ScaryWoman_Bath.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:804][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/HP_Poster4_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:806][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Materials/Posters/HP_Poster4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:815][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/Water1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:816][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/Water2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.32:842][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Bath/Water/HP_Water.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.33:200][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2019.01.25-20.10.33:207][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Blueprints/EthanConrad/Mesh/Animations/samba_dancing_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.33:213][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/ItIsTimeToPlayWithPolly.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.33:214][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Audio/JazzMusic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.33:225][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/UI/UMGWidgets/MainGame/Subtitles/Polly/SubtitlePolly.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.33:593][  0]LogLinker:Warning: Asset '../../../../../../Users/PaulCornelDeveloper/Documents/UnrealEngineProjects/Content/Meshes/Assortment/Blocker/HP_Blocker.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.01.25-20.10.33:717][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2019.01.25-20.10.33:815][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2019.01.25-20.10.33:823][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2019.01.25-20.10.33:833][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2019.01.25-20.10.33:844][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-20.10.33:844][  0]LogAIModule: Creating AISystem for world HP_MainLevel
+[2019.01.25-20.10.33:845][  0]Cmd: MAP CHECKDEP
+[2019.01.25-20.10.33:845][  0]MapCheck: New page: HP_MainLevel - Jan 26, 2019, 12:10:33 AM
+[2019.01.25-20.10.34:417][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 571.676ms to complete.
+[2019.01.25-20.10.34:417][  0]LogFileHelpers: Loading map 'HP_MainLevel' took 8.615
+[2019.01.25-20.10.34:838][  0]LogCollectionManager: Loaded 0 collections in 0.001921 seconds
+[2019.01.25-20.10.35:148][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.01.25-20.10.35:189][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.01.25-20.10.35:378][  0]LogLoad: Full Startup: 29.74 seconds (BP compile: 0.61 seconds)
+[2019.01.25-20.10.35:732][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UI/UMGWidgets/MainMenu'
+[2019.01.25-20.10.35:998][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x872.
+[2019.01.25-20.10.48:267][ 11]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.10.53:923][ 26]LogAssetRegistry: Asset discovery search completed in 30.7114 seconds
+[2019.01.25-20.12.20:024][ 31]Cmd: QUIT_EDITOR
+[2019.01.25-20.13.04:401][ 31]LogExit: Preparing to exit.
+[2019.01.25-20.13.12:858][ 31]LogExit: Editor shut down
+[2019.01.25-20.13.12:911][ 31]LogExit: Transaction tracking system shut down
+[2019.01.25-20.13.12:934][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001780808D1C0
+[2019.01.25-20.13.13:489][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000178498C4F40
+[2019.01.25-20.13.19:321][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017855F77F60
+[2019.01.25-20.13.19:321][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017855F77E20
+[2019.01.25-20.13.19:321][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017855F77B00
+[2019.01.25-20.13.19:321][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000178319BECA0
+[2019.01.25-20.13.19:321][ 31]LogExit: Object subsystem successfully closed.
+[2019.01.25-20.13.23:912][ 31]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (168)
+[2019.01.25-20.13.23:912][ 31]LogModuleManager: Shutting down and abandoning module CrashTracker (167)
+[2019.01.25-20.13.23:946][ 31]LogModuleManager: Shutting down and abandoning module SuperSearch (166)
+[2019.01.25-20.13.23:946][ 31]LogModuleManager: Shutting down and abandoning module SceneOutliner (165)
+[2019.01.25-20.13.23:971][ 31]LogModuleManager: Shutting down and abandoning module EditorWidgets (164)
+[2019.01.25-20.13.23:971][ 31]LogModuleManager: Shutting down and abandoning module CollectionManager (163)
+[2019.01.25-20.13.24:009][ 31]LogModuleManager: Shutting down and abandoning module WorldBrowser (162)
+[2019.01.25-20.13.24:060][ 31]LogModuleManager: Shutting down and abandoning module StatsViewer (161)
+[2019.01.25-20.13.24:080][ 31]LogModuleManager: Shutting down and abandoning module FoliageEdit (160)
+[2019.01.25-20.13.24:097][ 31]LogModuleManager: Shutting down and abandoning module LandscapeEditor (159)
+[2019.01.25-20.13.24:186][ 31]LogModuleManager: Shutting down and abandoning module MeshPaint (158)
+[2019.01.25-20.13.24:195][ 31]LogModuleManager: Shutting down and abandoning module ActorPickerMode (157)
+[2019.01.25-20.13.24:195][ 31]LogModuleManager: Shutting down and abandoning module GeometryMode (156)
+[2019.01.25-20.13.24:196][ 31]LogModuleManager: Shutting down and abandoning module TextureAlignMode (155)
+[2019.01.25-20.13.24:196][ 31]LogModuleManager: Shutting down and abandoning module BspMode (154)
+[2019.01.25-20.13.24:196][ 31]LogModuleManager: Shutting down and abandoning module PlacementMode (153)
+[2019.01.25-20.13.24:196][ 31]LogModuleManager: Shutting down and abandoning module AutomationWorker (152)
+[2019.01.25-20.13.24:218][ 31]LogModuleManager: Shutting down and abandoning module CharacterAI (151)
+[2019.01.25-20.13.24:218][ 31]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (150)
+[2019.01.25-20.13.24:270][ 31]LogModuleManager: Shutting down and abandoning module IntroTutorials (149)
+[2019.01.25-20.13.24:385][ 31]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (148)
+[2019.01.25-20.13.24:446][ 31]LogModuleManager: Shutting down and abandoning module HardwareTargeting (147)
+[2019.01.25-20.13.24:446][ 31]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2019.01.25-20.13.24:531][ 31]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2019.01.25-20.13.24:604][ 31]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2019.01.25-20.13.24:614][ 31]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2019.01.25-20.13.24:639][ 31]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2019.01.25-20.13.24:639][ 31]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2019.01.25-20.13.24:660][ 31]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2019.01.25-20.13.24:660][ 31]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (139)
+[2019.01.25-20.13.24:690][ 31]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (138)
+[2019.01.25-20.13.24:690][ 31]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2019.01.25-20.13.24:716][ 31]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2019.01.25-20.13.24:716][ 31]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (135)
+[2019.01.25-20.13.24:736][ 31]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (134)
+[2019.01.25-20.13.24:783][ 31]LogModuleManager: Shutting down and abandoning module InputBindingEditor (133)
+[2019.01.25-20.13.24:844][ 31]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (132)
+[2019.01.25-20.13.24:890][ 31]LogModuleManager: Shutting down and abandoning module SettingsEditor (131)
+[2019.01.25-20.13.24:898][ 31]LogModuleManager: Shutting down and abandoning module ProjectLauncher (130)
+[2019.01.25-20.13.24:910][ 31]LogModuleManager: Shutting down and abandoning module SessionFrontend (129)
+[2019.01.25-20.13.24:934][ 31]LogModuleManager: Shutting down and abandoning module ProfilerClient (128)
+[2019.01.25-20.13.24:954][ 31]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (127)
+[2019.01.25-20.13.24:960][ 31]LogModuleManager: Shutting down and abandoning module DeviceManager (126)
+[2019.01.25-20.13.25:023][ 31]LogModuleManager: Shutting down and abandoning module AutomationController (125)
+[2019.01.25-20.13.25:063][ 31]LogModuleManager: Shutting down and abandoning module AutomationWindow (124)
+[2019.01.25-20.13.25:071][ 31]LogModuleManager: Shutting down and abandoning module Layers (123)
+[2019.01.25-20.13.25:197][ 31]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (122)
+[2019.01.25-20.13.25:197][ 31]LogModuleManager: Shutting down and abandoning module DetailCustomizations (121)
+[2019.01.25-20.13.25:295][ 31]LogModuleManager: Shutting down and abandoning module PackagesDialog (120)
+[2019.01.25-20.13.25:384][ 31]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2019.01.25-20.13.25:924][ 31]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2019.01.25-20.13.25:988][ 31]LogModuleManager: Shutting down and abandoning module Kismet (117)
+[2019.01.25-20.13.26:035][ 31]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2019.01.25-20.13.26:044][ 31]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2019.01.25-20.13.26:051][ 31]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2019.01.25-20.13.26:056][ 31]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2019.01.25-20.13.26:073][ 31]LogModuleManager: Shutting down and abandoning module MovieSceneTools (112)
+[2019.01.25-20.13.26:117][ 31]LogModuleManager: Shutting down and abandoning module OutputLog (111)
+[2019.01.25-20.13.26:144][ 31]LogModuleManager: Shutting down and abandoning module GammaUI (110)
+[2019.01.25-20.13.26:152][ 31]LogModuleManager: Shutting down and abandoning module Documentation (109)
+[2019.01.25-20.13.26:152][ 31]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2019.01.25-20.13.26:161][ 31]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2019.01.25-20.13.26:168][ 31]LogModuleManager: Shutting down and abandoning module HTTP (106)
+[2019.01.25-20.13.26:178][ 31]LogModuleManager: Shutting down and abandoning module AnalyticsET (105)
+[2019.01.25-20.13.26:179][ 31]LogModuleManager: Shutting down and abandoning module Analytics (104)
+[2019.01.25-20.13.26:179][ 31]LogModuleManager: Shutting down and abandoning module GameplayDebugger (103)
+[2019.01.25-20.13.26:191][ 31]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2019.01.25-20.13.26:203][ 31]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2019.01.25-20.13.26:250][ 31]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2019.01.25-20.13.26:275][ 31]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2019.01.25-20.13.26:286][ 31]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (98)
+[2019.01.25-20.13.26:286][ 31]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2019.01.25-20.13.26:286][ 31]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2019.01.25-20.13.26:286][ 31]LogModuleManager: Shutting down and abandoning module MessagingDebugger (95)
+[2019.01.25-20.13.26:325][ 31]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (94)
+[2019.01.25-20.13.26:338][ 31]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (93)
+[2019.01.25-20.13.26:338][ 31]LogModuleManager: Shutting down and abandoning module PluginsEditor (92)
+[2019.01.25-20.13.26:356][ 31]LogModuleManager: Shutting down and abandoning module EpicSurvey (91)
+[2019.01.25-20.13.26:374][ 31]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2019.01.25-20.13.26:394][ 31]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (89)
+[2019.01.25-20.13.26:411][ 31]LogModuleManager: Shutting down and abandoning module UObjectPlugin (88)
+[2019.01.25-20.13.26:411][ 31]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (87)
+[2019.01.25-20.13.26:448][ 31]LogModuleManager: Shutting down and abandoning module SourceControl (86)
+[2019.01.25-20.13.26:448][ 31]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (85)
+[2019.01.25-20.13.26:482][ 31]LogModuleManager: Shutting down and abandoning module BlankPlugin (84)
+[2019.01.25-20.13.26:482][ 31]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2019.01.25-20.13.26:487][ 31]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2019.01.25-20.13.26:503][ 31]LogModuleManager: Shutting down and abandoning module HotReload (81)
+[2019.01.25-20.13.26:514][ 31]LogModuleManager: Shutting down and abandoning module MainFrame (80)
+[2019.01.25-20.13.26:529][ 31]LogModuleManager: Shutting down and abandoning module LevelEditor (79)
+[2019.01.25-20.13.26:595][ 31]LogModuleManager: Shutting down and abandoning module ViewportSnapping (78)
+[2019.01.25-20.13.26:595][ 31]LogModuleManager: Shutting down and abandoning module SmartSnapping (77)
+[2019.01.25-20.13.26:595][ 31]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (76)
+[2019.01.25-20.13.26:595][ 31]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (75)
+[2019.01.25-20.13.26:595][ 31]LogModuleManager: Shutting down and abandoning module ContentBrowser (74)
+[2019.01.25-20.13.26:605][ 31]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2019.01.25-20.13.26:605][ 31]LogModuleManager: Shutting down and abandoning module Paper2DEditor (72)
+[2019.01.25-20.13.26:626][ 31]LogModuleManager: Shutting down and abandoning module HP (71)
+[2019.01.25-20.13.26:626][ 31]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2019.01.25-20.13.26:632][ 31]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2019.01.25-20.13.26:733][ 31]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2019.01.25-20.13.26:779][ 31]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2019.01.25-20.13.26:920][ 31]LogModuleManager: Shutting down and abandoning module Media (66)
+[2019.01.25-20.13.26:920][ 31]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2019.01.25-20.13.26:923][ 31]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.01.25-20.13.26:923][ 31]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2019.01.25-20.13.26:923][ 31]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2019.01.25-20.13.26:942][ 31]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2019.01.25-20.13.27:022][ 31]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2019.01.25-20.13.27:022][ 31]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2019.01.25-20.13.27:062][ 31]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2019.01.25-20.13.27:160][ 31]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2019.01.25-20.13.27:160][ 31]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2019.01.25-20.13.27:160][ 31]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2019.01.25-20.13.27:160][ 31]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2019.01.25-20.13.27:182][ 31]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2019.01.25-20.13.27:182][ 31]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2019.01.25-20.13.27:182][ 31]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2019.01.25-20.13.27:183][ 31]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2019.01.25-20.13.27:183][ 31]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2019.01.25-20.13.27:183][ 31]LogModuleManager: Shutting down and abandoning module Core (47)
+[2019.01.25-20.13.27:183][ 31]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2019.01.25-20.13.27:183][ 31]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2019.01.25-20.13.27:183][ 31]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2019.01.25-20.13.27:225][ 31]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2019.01.25-20.13.27:281][ 31]LogDerivedDataCache: Shutdown
+[2019.01.25-20.13.27:281][ 31]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2019.01.25-20.13.27:344][ 31]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2019.01.25-20.13.27:362][ 31]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2019.01.25-20.13.27:373][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2019.01.25-20.13.27:373][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2019.01.25-20.13.27:377][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2019.01.25-20.13.27:388][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2019.01.25-20.13.27:388][ 31]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2019.01.25-20.13.27:418][ 31]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2019.01.25-20.13.27:429][ 31]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2019.01.25-20.13.27:429][ 31]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2019.01.25-20.13.27:429][ 31]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2019.01.25-20.13.27:429][ 31]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2019.01.25-20.13.27:430][ 31]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2019.01.25-20.13.27:430][ 31]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2019.01.25-20.13.27:529][ 31]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2019.01.25-20.13.27:529][ 31]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2019.01.25-20.13.27:584][ 31]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2019.01.25-20.13.27:584][ 31]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2019.01.25-20.13.27:636][ 31]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2019.01.25-20.13.27:636][ 31]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2019.01.25-20.13.27:654][ 31]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2019.01.25-20.13.27:655][ 31]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2019.01.25-20.13.27:655][ 31]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2019.01.25-20.13.27:655][ 31]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2019.01.25-20.13.27:655][ 31]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2019.01.25-20.13.27:655][ 31]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2019.01.25-20.13.27:665][ 31]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2019.01.25-20.13.27:682][ 31]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2019.01.25-20.13.27:704][ 31]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2019.01.25-20.13.27:722][ 31]LogExit: Exiting.
+[2019.01.25-20.13.28:077][ 31]Log file closed, 01/25/19 22:13:28
